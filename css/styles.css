@@ -16,10 +16,30 @@ body .wrapper{
 
 body .maincontent{
 	margin:0 200px;
+	z-index: 10;
+}
+
+.heading{
+	margin-bottom: 40px;
 }
 
 .heading h1{
+	color: #515151;	
+	margin-bottom: 15px;
+}
+
+.heading .underline{
+	width: 60px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #f1c40f;
+}
+
+p{
 	color: #515151;
+	line-height: 30px;
+	letter-spacing: 1px;
+	z-index: 10;
 }
 
 /*------------------------------------------------header---------------------------------------------*/
@@ -98,3 +118,26 @@ header nav a{
 
 /*--------------------------------------------------About us------------------------------------------------*/
 
+.aboutus{
+	position: relative;
+}
+
+.aboutus .maincontent{
+	padding-right: 50px;
+}
+
+.aboutus .backimg #crazyguy{
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	z-index: 1;
+	width: 500px;
+}
+
+.aboutus .backimg #monkey1{
+	position: absolute;
+	top: 0px;
+	left: -167px;
+	z-index: 1;
+	width: 175px;
+}
