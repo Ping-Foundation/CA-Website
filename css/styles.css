@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+
+}
+
+body .wrapper{
+	margin: 0 75px;
+	padding-top: 20px;
+	z-index: 1;
+}
+
+body .maincontent{
+	margin:0 200px;
+}
+
+.heading h1{
+	color: #515151;
+}
+
+/*------------------------------------------------header---------------------------------------------*/
+
+header .logo{
+	float: left;
+}
+
+header nav{
+	float: right;	
+}
+
+header nav a{
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 0.9rem;
+	color: #515151;
+	font-weight: 600;
+}
+
+.hero{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 250px;
+}
+
+.hero h4{
+	color: #7a7a7a;
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-weight: 400;
+
+}
+
+
+/*-----------------------------------------------------header graphics----------------------------------------------*/
+
+
+.circle{
+	border-radius: 50%;
+}
+
+.smallcircle{
+	width: 50px;
+	height: 50px;
+	border: 5px solid #f1c40f;
+	opacity: 0.7;
+	position: absolute;
+	top: 120px;
+	right: 100px;
+	z-index: 0
+}
+
+.mediumcircle{
+	width: 100px;
+	height: 100px;
+	border: 10px solid #f1c40f;
+	opacity: 0.5;
+	position: absolute;
+	top: 160px;
+	left: 145px;
+	z-index: 0
+}
+
+.largecircle{
+	width: 330px;
+	height: 330px;
+	border: 30px solid #f1c40f;
+	opacity: 0.5;
+	position: absolute;
+	top: 470px;
+	right: -90px;
+	z-index: 0
+}
+
+/*--------------------------------------------------About us------------------------------------------------*/
+
