@@ -26,6 +26,7 @@ body .maincontent{
 .heading h1{
 	color: #515151;	
 	margin-bottom: 15px;
+	font-size: 1.8rem;
 }
 
 .heading .underline{
@@ -120,6 +121,7 @@ header nav a{
 
 .aboutus{
 	position: relative;
+	margin-bottom: 100px;
 }
 
 .aboutus .maincontent{
@@ -173,3 +175,53 @@ header nav a{
 	line-height: 35px;
 }
 
+/*--------------------------------------------------Startups------------------------------------------------*/
+
+.startups .yellowback{
+	margin-top: 50px;
+	height: 200px;
+	width: 120vw;
+	position: absolute;
+	left: -100px;
+	background-color: #f7dc6f;
+	-ms-transform: rotate(-5deg); 
+    -webkit-transform: rotate(-5deg); 
+    transform: rotate(-5deg);
+    z-index: 0;
+}
+
+.startups .yellowbackcontent{	
+	margin: 0 -100px;
+	background-color: #f7dc6f;
+	position: relative;
+	top: 170px;
+	padding: 0 85px;
+}
+
+.startups .heading{
+	text-align: right;
+	color: #262626;
+}
+
+.startups .heading .underline{
+	float: right;
+	background-color: white;
+}
+
+.startups p{
+	margin-top: 70px;
+	color: #262626;
+}
+
+.startups .backimg #monkey2{
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	width: 175px;
+}
+
+.startups .yellowdrops{
+	margin-top: 150px;
+	width: 120vw;
+	margin-left: -100px;
+}
