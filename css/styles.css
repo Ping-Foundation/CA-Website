@@ -141,3 +141,35 @@ header nav a{
 	z-index: 1;
 	width: 175px;
 }
+
+.aboutus .box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.aboutus .box .featurebox{
+	-webkit-box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.11);
+	-moz-box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.11);
+	box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.11);
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 300px;
+    z-index: 85;
+    margin-top: 250px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
+    color: #717171;
+}
+
+.aboutus .box .featurebox:nth-child(2){
+	padding-top: 37px;
+}
+
+.aboutus .box .featurebox h4{
+	font-weight: 400;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	line-height: 35px;
+}
+
