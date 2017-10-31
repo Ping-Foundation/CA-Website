@@ -231,6 +231,7 @@ header nav a{
 
 .investors{
 	position: relative;
+	margin-bottom: 175px;
 }
 
 .investors .greyback{
@@ -255,4 +256,45 @@ header nav a{
 	position: absolute;
 	top: 0px;
 	left: 0px;
+}
+
+/*--------------------------------------------------Sponsors------------------------------------------------*/
+
+.sponsors{
+	position: relative;
+	margin-bottom: 175px;
+}
+
+
+.sponsors .heading{
+	text-align: right;
+	margin-bottom: 80px;
+}
+
+.sponsors .underline{
+	float: right;
+}
+
+.sponsors .colcontainer{
+	display: flex;
+}
+
+.sponsors .colcontainer p:first-child{
+	margin-right: 10px;
+}
+
+.sponsors .colcontainer p:last-child{
+	margin-left: 10px;
+}
+
+.sponsors .backimg #crazy{
+	position: absolute;
+	top: -80px;
+	left: -140px;
+}
+
+.sponsors .backimg #amigos{
+	position: absolute;
+	top: 280px;
+	right: -200px;
 }
