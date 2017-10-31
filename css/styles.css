@@ -335,7 +335,7 @@ header nav a{
 
 .projects{
 	position: relative;
-	margin-bottom: 175px;
+	margin-bottom: 120px;
 }
 
 .projects .heading{
@@ -391,7 +391,7 @@ header nav a{
 	margin-bottom: 50px;
 }
 
-.projects form button{
+form button{
 	width: 200px;
 	height: 60px;
 	background-color: #f2ca27;
@@ -402,4 +402,51 @@ header nav a{
 	letter-spacing: 1px;
 	cursor: pointer;
 	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*--------------------------------------------------Join Us------------------------------------------------*/
+
+.joinus{
+	position: relative;
+}
+
+.joinus .heading h1{
+	color: white;
+}
+
+.joinus form label{
+	display: block;
+	color: #d1ab10;
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+.joinus form input{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #f3f3f3;
+	margin-bottom: 50px;
+	border: none;
+}
+
+.joinus .backoverlay{
+	background-color: black;
+	margin-left: -20%;
+	padding-left: 20%;
+	margin-right: -20%;
+	padding-right: 20%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	opacity: 0.9;
+	z-index: 8;
+}
+
+.joinus .backimg img{
+	position: absolute;
+	z-index: 0;
+	top: 85px;
+	right: -150px;
+	width: 900px;
 }
