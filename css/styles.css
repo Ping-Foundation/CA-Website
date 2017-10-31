@@ -351,3 +351,55 @@ header nav a{
 	color: #dbb20b;
 	text-decoration: none;
 }
+
+.projects .largecircle2{
+	width: 330px;
+	height: 330px;
+	border: 30px solid #f1c40f;
+	opacity: 0.5;
+	position: absolute;
+	top: 120px;
+	left: -230px;
+	z-index: 0;
+}
+
+.projects .maincontent>h1{
+	color: #515151;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.projects form label{
+	display: block;
+	color: #d1ab10;
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+.projects form input{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid #8c8c8c;
+	margin-bottom: 50px;
+}
+
+.projects form textarea{
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #8c8c8c;
+	margin-bottom: 50px;
+}
+
+.projects form button{
+	width: 200px;
+	height: 60px;
+	background-color: #f2ca27;
+	border-radius: 10px;
+	color: #151515;
+	border: none;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-weight: 700;
+}
