@@ -225,3 +225,34 @@ header nav a{
 	width: 120vw;
 	margin-left: -100px;
 }
+
+/*--------------------------------------------------Investors------------------------------------------------*/
+
+
+.investors{
+	position: relative;
+}
+
+.investors .greyback{
+	background-color: #f3f3f3;
+	margin-bottom: 50px;
+	padding-right: 150px;
+	margin-left: -50px;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.investors .backimg #investor{
+	position: absolute;
+	top: 190px;
+	right: 50px;
+	width: 300px;
+	opacity: 0.85;
+}
+
+.investors .backimg #monkey3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
