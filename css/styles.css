@@ -303,7 +303,7 @@ header nav a{
 
 .teams{
 	position: relative;
-	margin-bottom: 175px;
+	margin-bottom: 140px;
 }
 
 .teams .colcontainer{
@@ -329,4 +329,25 @@ header nav a{
 	width: 50%;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+/*--------------------------------------------------Projects------------------------------------------------*/
+
+.projects{
+	position: relative;
+	margin-bottom: 175px;
+}
+
+.projects .heading{
+	text-align: right;
+	margin-bottom: 80px;
+}
+
+.projects .underline{
+	float: right;
+}
+
+.projects .maincontent p span a{
+	color: #dbb20b;
+	text-decoration: none;
 }
