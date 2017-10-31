@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html, body{
+	margin: 0px;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
@@ -409,6 +413,7 @@ form button{
 
 .joinus{
 	position: relative;
+	margin-bottom: 100px;
 }
 
 .joinus .heading h1{
@@ -449,4 +454,37 @@ form button{
 	top: 85px;
 	right: -150px;
 	width: 900px;
+}
+
+/*--------------------------------------------------Contacts------------------------------------------------*/
+
+.contacts{
+	margin-bottom: 85px;
+}
+
+.contacts .heading{
+	text-align: right;
+	margin-bottom: 80px;
+}
+
+.contacts .underline{
+	float: right;
+}
+
+.contacts .maincontent p{
+	text-align: right;
+}
+
+.contacts .maincontent p span{
+	color: #f2ca27;
+}
+
+/*--------------------------------------------------Footer------------------------------------------------*/
+
+footer{
+	display: block;
+	background-color: #f2ca27;
+	color: white; 
+	text-align: center;
+	padding: 20px;
 }
