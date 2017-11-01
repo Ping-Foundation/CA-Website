@@ -9,7 +9,6 @@ html, body{
 body{
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
-
 }
 
 body .wrapper{
@@ -21,6 +20,11 @@ body .wrapper{
 body .maincontent{
 	margin:0 200px;
 	z-index: 10;
+}
+
+#bodywrapper{
+	overflow-x: hidden;
+
 }
 
 .heading{
@@ -48,6 +52,9 @@ p{
 }
 
 /*------------------------------------------------header---------------------------------------------*/
+
+header{
+}
 
 header .logo{
 	float: left;
@@ -487,4 +494,42 @@ footer{
 	color: white; 
 	text-align: center;
 	padding: 20px;
+}
+
+
+
+/*--------------------------------------------------Responsiveness------------------------------------------------*/
+
+@media(max-width: 1270px){
+	.teams .colcontainer{
+		padding-right: 0px;
+	}
+}
+
+@media(max-width: 1200px){
+	.teams .colcontainer{
+		display: block;
+	}
+	.teams .teamcontent1{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+}
+
+@media(max-width: 1180px){
+	.aboutus .box .featurebox{
+    width: 260px;
+    height: 250px;
+	}
+
+
+.aboutus .box .featurebox h4{
+	font-weight: 400;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	font-size: 0.9rem;
+}
+
 }
