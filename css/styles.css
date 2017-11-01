@@ -51,6 +51,26 @@ p{
 	z-index: 10;
 }
 
+
+.scrollup{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	background-image: url("../images/scrollup.png");
+	background-size: cover;	
+	border-radius: 50%;
+	display: none;
+	z-index: 100;
+	-webkit-box-shadow: 0px 2px 37.24px 0.76px rgba(189, 153, 7, 0.53);
+	-moz-box-shadow: 0px 2px 37.24px 0.76px rgba(189, 153, 7, 0.53);
+	box-shadow: 0px 2px 37.24px 0.76px rgba(189, 153, 7, 0.53);
+}
+
+
+
 /*------------------------------------------------header---------------------------------------------*/
 
 header{
@@ -555,10 +575,16 @@ footer{
 
 /*---------------------------*/
 
+.aboutus .maincontent{
+	padding-right: 0px;
+}
+
 .aboutus .box{
 	flex-wrap: wrap;
-	justify-content: center;;
+	justify-content: center;
+	margin-top: 150px;
 }
+
 
 .aboutus .box .featurebox{
 	margin: 10px;
@@ -641,4 +667,26 @@ footer{
 	body .wrapper{
 		margin: 0 20px;
 	}
+
+	.smallcircle{
+		top: 68px;
+		opacity: 0.8;
+	}
+
+	.mediumcircle{
+		top: 300px;
+	}
+
+	.startups .yellowback{
+		left: -70px;
+	}
+
+	.sponsors .colcontainer{
+		flex-wrap: wrap;
+	}
+
+	.teams .colcontainer .teamcircle img{
+		width: 250px;
+	}
+
 }
