@@ -166,10 +166,12 @@ header nav .hamburger{
 
 .aboutus .backimg #crazyguy{
 	position: absolute;
-	top: 50px;
-	right: 0px;
-	z-index: 1;
-	width: 500px;
+	top: 60px;
+	right: 170px;
+	z-index: -10;
+	width: 300px;
+	height: 300px;
+	background-color: #e8e8e8;
 }
 
 .aboutus .backimg #monkey1{
@@ -239,6 +241,10 @@ header nav .hamburger{
 	color: #262626;
 }
 
+.projects .heading h1{
+	color: #262626;
+}
+
 .projects .heading .underline{
 	float: right;
 	background-color: white;
@@ -247,6 +253,11 @@ header nav .hamburger{
 .projects p{
 	margin-top: 70px;
 	color: #262626;
+}
+
+.projects #yeng{
+	position: relative;
+	top: 20px;
 }
 
 .projects .backimg #monkey2{
@@ -263,20 +274,20 @@ header nav .hamburger{
 }
 
 .projects .maincontent p span a{
-	color: #dbb20b;
+	color: white;
 	text-decoration: none;
 }
 
 
 .projects .maincontent>h1{
-	color: #515151;
+	color: #262626;
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
 
 .projects form label{
 	display: block;
-	color: #515151;
+	color: #262626;
 	margin-bottom: 10px;
 	font-size: 1.1rem;
 }
@@ -597,7 +608,7 @@ footer{
 	display: none;
 }
 
-.startups .backimg #monkey2{
+.projects .backimg #monkey2{
 	opacity: 0.2;
 }
 
