@@ -211,9 +211,9 @@ header nav .hamburger{
 	line-height: 35px;
 }
 
-/*--------------------------------------------------Startups------------------------------------------------*/
+/*--------------------------------------------------Projects------------------------------------------------*/
 
-.startups .yellowback{
+.projects .yellowback{
 	margin-top: 50px;
 	height: 200px;
 	width: 120vw;
@@ -226,7 +226,7 @@ header nav .hamburger{
     z-index: 0;
 }
 
-.startups .yellowbackcontent{	
+.projects .yellowbackcontent{	
 	margin: 0 -100px;
 	background-color: #f7dc6f;
 	position: relative;
@@ -234,32 +234,80 @@ header nav .hamburger{
 	padding: 0 85px;
 }
 
-.startups .heading{
+.projects .heading{
 	text-align: right;
 	color: #262626;
 }
 
-.startups .heading .underline{
+.projects .heading .underline{
 	float: right;
 	background-color: white;
 }
 
-.startups p{
+.projects p{
 	margin-top: 70px;
 	color: #262626;
 }
 
-.startups .backimg #monkey2{
+.projects .backimg #monkey2{
 	position: absolute;
 	top: 100px;
 	right: 0px;
 	width: 175px;
 }
 
-.startups .yellowdrops{
+.projects .yellowdrops{
 	margin-top: 150px;
 	width: 120vw;
 	margin-left: -100px;
+}
+
+.projects .maincontent p span a{
+	color: #dbb20b;
+	text-decoration: none;
+}
+
+
+.projects .maincontent>h1{
+	color: #515151;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.projects form label{
+	display: block;
+	color: #515151;
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+.projects form input{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.projects form textarea{
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 50px;
+}
+
+form button{
+	width: 200px;
+	height: 60px;
+	background-color: #f2ca27;
+	border-radius: 10px;
+	color: #151515;
+	border: none;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------Investors------------------------------------------------*/
@@ -367,28 +415,24 @@ header nav .hamburger{
 	padding-right: 20px;
 }
 
-/*--------------------------------------------------Projects------------------------------------------------*/
+/*--------------------------------------------------Startups------------------------------------------------*/
 
-.projects{
+.startups{
 	position: relative;
 	margin-bottom: 120px;
 }
 
-.projects .heading{
+.startups .heading{
 	text-align: right;
 	margin-bottom: 80px;
 }
 
-.projects .underline{
+.startups .underline{
 	float: right;
 }
 
-.projects .maincontent p span a{
-	color: #dbb20b;
-	text-decoration: none;
-}
 
-.projects .largecircle2{
+.startups .largecircle2{
 	width: 330px;
 	height: 330px;
 	border: 30px solid #f1c40f;
@@ -399,47 +443,6 @@ header nav .hamburger{
 	z-index: 0;
 }
 
-.projects .maincontent>h1{
-	color: #515151;
-	margin-top: 50px;
-	margin-bottom: 40px;
-}
-
-.projects form label{
-	display: block;
-	color: #d1ab10;
-	margin-bottom: 10px;
-	font-size: 1.1rem;
-}
-
-.projects form input{
-	width: 100%;
-	height: 50px;
-	border-radius: 10px;
-	border: 1px solid #8c8c8c;
-	margin-bottom: 50px;
-}
-
-.projects form textarea{
-	width: 100%;
-	border-radius: 10px;
-	border: 1px solid #8c8c8c;
-	margin-bottom: 50px;
-}
-
-form button{
-	width: 200px;
-	height: 60px;
-	background-color: #f2ca27;
-	border-radius: 10px;
-	color: #151515;
-	border: none;
-	font-size: 1.3rem;
-	letter-spacing: 1px;
-	cursor: pointer;
-	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
-}
 
 /*--------------------------------------------------Join Us------------------------------------------------*/
 
