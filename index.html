@@ -5,7 +5,7 @@
     <title>Crazy Amigos</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
 <div id="bodywrapper">
@@ -106,13 +106,15 @@
                         platform to learn from and get opportunity to work with the peers of the industry.<br><br>
                     </p>
 
-                    <h1>1. <a href="http://www.yeng.in" target="_blank"><img src="images/yenglogo.png" alt="yenglogo"
-                                                                             id="yeng"></a></h1>
+
+                    <h1>1. <a href="" onclick="yengTab()">
+                                <img src="images/yenglogo.png" alt="yenglogo" id="yeng">
+                           </a>
+                    </h1>
                     <p>
 
                         Companies, government organization and such entities willing to have open source projects are
-                        also part of the event. The success of our very first project <span><a href="http://www.yeng.in"
-                                                                                               target="_blank">Yeng</a></span>
+                        also part of the event. The success of our very first project <span><a href="#" onclick="yengTab()">Yeng</a></span>
                         shows how open the technical world is to welcome the young ideas.<br><br>
 
                         So, make sure you don’t miss our upcoming event!
@@ -122,14 +124,15 @@
                           action="https://script.google.com/macros/s/AKfycbzJ1fRJ9RcxzvJQVwo6H-MfOYRaIZYaEu3raQHVnRIMzQ7bTl0/exec">
                         <label for="title">Title</label>
                         <input type="text" id="title" name="title">
+                        <label for="phone">Phone no.</label>
+                        <input type="text" id="phones" name="phone">
+                        <label for="phone">Email</label>
+                        <input type="email" id="email" name="email">
+                        <span id="email-invalid" style="display:none">
+        					Must be a valid email address
+					    </span>
                         <label for="description">Description</label>
                         <textarea name="description" id="description" cols="30" rows="10"></textarea>
-                        <div style="display:none;">
-                            <input type="email" id="email" value="aboobacker5577@gmail.com" name="email">
-                            <span id="email-invalid" style="display:none">
-        					Must be a valid email address
-					</span>
-                        </div>
                         <button type="submit">Submit</button>
                     </form>
                     <!-- Customise the Thankyou Message People See when they submit the form: -->
@@ -288,9 +291,9 @@
                         <input type="text" id="name" name="name">
                         <label for="email">email id</label>
                         <input type="text" id="emails" name="email">
-                        <span id="emailjoin-invalid" style="display:none; color: red;" >
+                        <span id="" style="display:none; color: red;" >
         					Must be a valid email address
-					</span>
+					    </span>
                         <label for="phone">Phone no.</label>
                         <input type="text" id="phone" name="phone">
                         <button type="submit">Join</button>

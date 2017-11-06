@@ -30,6 +30,10 @@ $(document).ready(function(){
 	});
 
 });
+function yengTab() {
+    window.open('http://www.yeng.in', '_blank');
+}
+
 
 /*$(document).ready(function(){
 
