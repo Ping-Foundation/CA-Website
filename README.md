@@ -14,6 +14,8 @@ Yeng is the next generation mobile app which leverages bleeding edge technology 
 
 [visit here](http://yeng.in/)
 
+[Download](https://play.google.com/store/apps/details?id=in.yeng.user)
+
 contact_us
 -----------
 talk@crazyamigos.io
