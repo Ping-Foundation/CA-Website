@@ -17,8 +17,11 @@ Yeng is the next generation mobile app which leverages bleeding edge technology 
 contact_us
 -----------
 talk@crazyamigos.io
+
 Community Lead-Nikhil Kilivayil
+
 +91 9995471353
+
 nikhilkilivayil@gmail.com 
 
 Gracias Amigos !
