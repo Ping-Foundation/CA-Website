@@ -5,6 +5,7 @@ Finding empty space!
 ---------------------
 
 Crazy amigos is an open source community where you can learn, share and get connected to the real-time technological world. Grab the opportunity to be part of this professional learning and sharing community and get hands-on experience in real time projects. 
+
 [Visit here](https://crazyamigos.io/)
 
 projects_yeng
